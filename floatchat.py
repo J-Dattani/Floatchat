@@ -21,8 +21,8 @@ st.markdown("""
     margin-bottom: 0.5rem; 
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-.chat-user {border-left: 4px solid #2196f3;}
-.chat-bot {border-left: 4px solid #4caf50;}
+.chat-user {border: 1px solid #2196f3; border-left: 6px solid #2196f3;}
+.chat-bot {border: 1px solid #4caf50; border-left: 4px solid #4caf50;}
 .stButton>button {
     border-radius: 8px; 
     padding: .5rem 1rem; 
